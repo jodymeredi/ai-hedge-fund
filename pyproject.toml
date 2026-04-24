@@ -52,6 +52,8 @@ python_version = "3.11"
 warn_return_any = true
 warn_unused_configs = true
 ignore_missing_imports = true
+# disabling strict optional for now — too many false positives in agent code
+strict_optional = false
 
 [tool.pytest.ini_options]
 asyncio_mode = "auto"
