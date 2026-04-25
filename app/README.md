@@ -104,8 +104,8 @@ OPENAI_API_KEY=your-openai-api-key
 # For running LLMs hosted by groq (deepseek, llama3, etc.)
 GROQ_API_KEY=your-groq-api-key
 
-# For getting financial data from Financial Datasets
+# For getting financial data (required for stock prices, financials, etc.)
 FINANCIAL_DATASETS_API_KEY=your-financial-datasets-api-key
 ```
 
-> **Note:** At minimum you need one LLM provider key (e.g. `OPENAI_API_KEY`) to run the agents. The `FINANCIAL_DATASETS_API_KEY` is required for tickers not supported by the free yfinance data source.
+> **Note (personal):** I've found that setting up `FINANCIAL_DATASETS_API_KEY` first is the most important step — the app won't return useful data without it.
