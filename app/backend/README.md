@@ -94,4 +94,4 @@ app/backend/
 
 ## Disclaimer
 
-This project is for **educational and research purposes only**. It is not intended to be used as actual financial advice or for real trading. Always do your own research before making any investment decisions.
+This project is for **educational and research purposes only**. It is not intended to be used as actual financial or investment advice. Always do your own research before making any investment decisions.
